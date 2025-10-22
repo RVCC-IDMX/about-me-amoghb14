@@ -36,3 +36,8 @@ body {
     display: flex;
     margin-top: 40px;
 }
+
+#lit{
+    border: 10px solid #ff553b;
+    padding: 25px;
+}
