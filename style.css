@@ -25,3 +25,14 @@ body {
     background-color: rgb(31, 55, 52);
     border: 1rem solid #ff553b;
 }
+
+#hobbies{
+    text-align: left;
+}
+
+#hobby{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
