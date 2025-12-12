@@ -46,3 +46,84 @@ body {
     display: grid;
     text-align: left;
 }
+
+#contactForm{
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+#form-elements{
+    margin: 10px;
+}
+
+#name{
+    margin-top: 10px;
+        margin-bottom: 10px;
+
+    background-color: #1c282d;
+    height: 22px;
+    width: inherit;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+}
+
+#email{
+    margin-top: 10px;
+        margin-bottom: 10px;
+
+    background-color: #1c282d;
+    height: 22px;
+    width: inherit;
+    border-radius: 20px;
+    border-color: transparent;
+        color: white;
+
+}
+
+#phone{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #1c282d;
+    height: 22px;
+    width: inherit;
+    border-radius: 20px;
+    border-color: transparent;
+        color: white;
+
+}
+
+#phonetype{
+    margin-top: 10px;
+    background-color: #1c282d;
+    color: white;
+    border-color: transparent;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#message{
+    margin-top: 10px;
+    background-color: #1c282d;
+    border-color: transparent;
+    margin-bottom: 10px;
+        color: white;
+
+}
+
+#send{
+    width: inherit;
+    height: 50px;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-top: 10px;
+    background-color: #ff553b;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bolder;
+}
+
+#contactus{
+    margin-top: 70px;
+}
