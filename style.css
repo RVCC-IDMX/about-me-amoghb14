@@ -9,6 +9,7 @@ body {
 #origami {
     width: 300px;
     height: 300px;
+    border-radius: 50%;
 }
 
 #top{
@@ -126,4 +127,45 @@ body {
 
 #contactus{
     margin-top: 70px;
+}
+
+#amogh{
+    border-radius: 50%;
+    border: 0.5rem solid #ff553b;
+}
+
+#space:hover{
+    border: 0.5rem solid #ff553b;
+    border-radius: 10px;
+}
+
+#yosemite:hover{
+    border: 0.5rem solid #ff553b;
+    border-radius: 10px;
+}
+
+#horse:hover{
+    border: 0.5rem solid #ff553b;
+    border-radius: 10px;
+}
+
+#bg:hover{
+    background-color: skyblue;
+}
+
+#bord{
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#bord:hover{
+    border-radius: 40px;
+}
+
+#transparency{
+    background-color: black;
+}
+#transparency:hover{
+    opacity: 0.4;
 }
