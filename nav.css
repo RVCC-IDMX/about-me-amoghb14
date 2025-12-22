@@ -16,9 +16,11 @@ body{
     font-size: 1.5rem;
     margin-bottom: 1rem;
     list-style-type: none;
+    position: fixed;
+    display: none;
 }
 
-.navbar-links li{
+#navbar-links li{
     list-style: none;
     display: block;
     padding: 0.5em 0;
@@ -30,7 +32,7 @@ body{
     list-style-type: none;
 }
 
-.navbar-links a{
+#navbar-links a{
     color: whitesmoke;
     background-attachment: 232626;
     list-style-type: none;
@@ -39,6 +41,11 @@ body{
 #a{
     color: white;
 }
+
+#a:hover,#b:hover,#c:hover,#d:hover,#e:hover{
+    color: red;
+}
+
 #b{
     color: white;
 }
@@ -50,4 +57,20 @@ body{
 }
 #e{
     color: white;
+}
+
+#navtoggle:checked ~ .navbar{
+    display: block;
+}
+
+#navtoggle{
+    display: none;
+}
+
+#t{
+    position: fixed;
+    width: 100px;
+    height: 20px;
+    color: white;
+    font-size: 50px;
 }
